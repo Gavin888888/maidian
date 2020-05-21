@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEDD1FB4247660E1000FA736 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD1FB3247660E1000FA736 /* AppDelegate.m */; };
+		AEDD1FB7247660E1000FA736 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD1FB6247660E1000FA736 /* SceneDelegate.m */; };
+		AEDD1FBA247660E1000FA736 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD1FB9247660E1000FA736 /* ViewController.m */; };
+		AEDD1FBD247660E1000FA736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDD1FBB247660E1000FA736 /* Main.storyboard */; };
+		AEDD1FBF247660E4000FA736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDD1FBE247660E4000FA736 /* Assets.xcassets */; };
+		AEDD1FC2247660E4000FA736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDD1FC0247660E4000FA736 /* LaunchScreen.storyboard */; };
+		AEDD1FC5247660E4000FA736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD1FC4247660E4000FA736 /* main.m */; };
+		AEDD1FCD24766149000FA736 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD1FCC24766149000FA736 /* NextViewController.m */; };
+		AEDD1FD3247661C9000FA736 /* SMHook.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD1FCF247661C9000FA736 /* SMHook.m */; };
+		AEDD1FD4247661C9000FA736 /* UIViewController+time.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD1FD2247661C9000FA736 /* UIViewController+time.m */; };
+		AEDD1FDA24766222000FA736 /* UIButton+tap.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD1FD924766222000FA736 /* UIButton+tap.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEDD1FAF247660E1000FA736 /* 无侵入式埋点.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "无侵入式埋点.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDD1FB2247660E1000FA736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEDD1FB3247660E1000FA736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEDD1FB5247660E1000FA736 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AEDD1FB6247660E1000FA736 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AEDD1FB8247660E1000FA736 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEDD1FB9247660E1000FA736 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEDD1FBC247660E1000FA736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEDD1FBE247660E4000FA736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEDD1FC1247660E4000FA736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEDD1FC3247660E4000FA736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDD1FC4247660E4000FA736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEDD1FCB24766149000FA736 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		AEDD1FCC24766149000FA736 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		AEDD1FCF247661C9000FA736 /* SMHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHook.m; sourceTree = "<group>"; };
+		AEDD1FD0247661C9000FA736 /* UIViewController+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+time.h"; sourceTree = "<group>"; };
+		AEDD1FD1247661C9000FA736 /* SMHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHook.h; sourceTree = "<group>"; };
+		AEDD1FD2247661C9000FA736 /* UIViewController+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+time.m"; sourceTree = "<group>"; };
+		AEDD1FD824766222000FA736 /* UIButton+tap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+tap.h"; sourceTree = "<group>"; };
+		AEDD1FD924766222000FA736 /* UIButton+tap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+tap.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEDD1FAC247660E1000FA736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEDD1FA6247660E1000FA736 = {
+			isa = PBXGroup;
+			children = (
+				AEDD1FB1247660E1000FA736 /* 无侵入式埋点 */,
+				AEDD1FB0247660E1000FA736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEDD1FB0247660E1000FA736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD1FAF247660E1000FA736 /* 无侵入式埋点.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEDD1FB1247660E1000FA736 /* 无侵入式埋点 */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD1FCE247661BF000FA736 /* 埋点文件 */,
+				AEDD1FB2247660E1000FA736 /* AppDelegate.h */,
+				AEDD1FB3247660E1000FA736 /* AppDelegate.m */,
+				AEDD1FB5247660E1000FA736 /* SceneDelegate.h */,
+				AEDD1FB6247660E1000FA736 /* SceneDelegate.m */,
+				AEDD1FB8247660E1000FA736 /* ViewController.h */,
+				AEDD1FB9247660E1000FA736 /* ViewController.m */,
+				AEDD1FCB24766149000FA736 /* NextViewController.h */,
+				AEDD1FCC24766149000FA736 /* NextViewController.m */,
+				AEDD1FBB247660E1000FA736 /* Main.storyboard */,
+				AEDD1FBE247660E4000FA736 /* Assets.xcassets */,
+				AEDD1FC0247660E4000FA736 /* LaunchScreen.storyboard */,
+				AEDD1FC3247660E4000FA736 /* Info.plist */,
+				AEDD1FC4247660E4000FA736 /* main.m */,
+			);
+			path = "无侵入式埋点";
+			sourceTree = "<group>";
+		};
+		AEDD1FCE247661BF000FA736 /* 埋点文件 */ = {
+			isa = PBXGroup;
+			children = (
+				AEDD1FD1247661C9000FA736 /* SMHook.h */,
+				AEDD1FCF247661C9000FA736 /* SMHook.m */,
+				AEDD1FD0247661C9000FA736 /* UIViewController+time.h */,
+				AEDD1FD2247661C9000FA736 /* UIViewController+time.m */,
+				AEDD1FD824766222000FA736 /* UIButton+tap.h */,
+				AEDD1FD924766222000FA736 /* UIButton+tap.m */,
+			);
+			path = "埋点文件";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEDD1FAE247660E1000FA736 /* 无侵入式埋点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEDD1FC8247660E4000FA736 /* Build configuration list for PBXNativeTarget "无侵入式埋点" */;
+			buildPhases = (
+				AEDD1FAB247660E1000FA736 /* Sources */,
+				AEDD1FAC247660E1000FA736 /* Frameworks */,
+				AEDD1FAD247660E1000FA736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "无侵入式埋点";
+			productName = "无侵入式埋点";
+			productReference = AEDD1FAF247660E1000FA736 /* 无侵入式埋点.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEDD1FA7247660E1000FA736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "lei li";
+				TargetAttributes = {
+					AEDD1FAE247660E1000FA736 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AEDD1FAA247660E1000FA736 /* Build configuration list for PBXProject "无侵入式埋点" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEDD1FA6247660E1000FA736;
+			productRefGroup = AEDD1FB0247660E1000FA736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEDD1FAE247660E1000FA736 /* 无侵入式埋点 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEDD1FAD247660E1000FA736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDD1FC2247660E4000FA736 /* LaunchScreen.storyboard in Resources */,
+				AEDD1FBF247660E4000FA736 /* Assets.xcassets in Resources */,
+				AEDD1FBD247660E1000FA736 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEDD1FAB247660E1000FA736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDD1FD3247661C9000FA736 /* SMHook.m in Sources */,
+				AEDD1FD4247661C9000FA736 /* UIViewController+time.m in Sources */,
+				AEDD1FCD24766149000FA736 /* NextViewController.m in Sources */,
+				AEDD1FDA24766222000FA736 /* UIButton+tap.m in Sources */,
+				AEDD1FBA247660E1000FA736 /* ViewController.m in Sources */,
+				AEDD1FB4247660E1000FA736 /* AppDelegate.m in Sources */,
+				AEDD1FC5247660E4000FA736 /* main.m in Sources */,
+				AEDD1FB7247660E1000FA736 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEDD1FBB247660E1000FA736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEDD1FBC247660E1000FA736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEDD1FC0247660E4000FA736 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEDD1FC1247660E4000FA736 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEDD1FC6247660E4000FA736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEDD1FC7247660E4000FA736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEDD1FC9247660E4000FA736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "无侵入式埋点/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "s.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEDD1FCA247660E4000FA736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "无侵入式埋点/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "s.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEDD1FAA247660E1000FA736 /* Build configuration list for PBXProject "无侵入式埋点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDD1FC6247660E4000FA736 /* Debug */,
+				AEDD1FC7247660E4000FA736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEDD1FC8247660E4000FA736 /* Build configuration list for PBXNativeTarget "无侵入式埋点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEDD1FC9247660E4000FA736 /* Debug */,
+				AEDD1FCA247660E4000FA736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEDD1FA7247660E1000FA736 /* Project object */;
+}
